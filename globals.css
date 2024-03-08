@@ -1,0 +1,55 @@
+/* LoginForm.module.css */
+
+*{
+    background-color: black;
+    color: white;
+}
+
+#imagem-pc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12vh;
+}
+
+img {
+    width: 30vh;
+}
+
+#formulario {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    margin: auto;
+}
+
+#formulario label {
+    padding: 2px;
+}
+
+#formulario input {
+    width: 400px;
+    height: 50px;
+    background: rgb(53, 53, 53);
+    border-width: 1.61px;
+    border-style: solid;
+    border-color: rgb(197, 194, 194);
+    border-image: initial;
+    border-radius: 3px;
+    padding-inline: 5px;
+}
+
+#formulario #botao {
+    width: 140px;
+    height: 60px;
+    background-color: rgb(47, 178, 60);
+    font-family: Roboto, sans-serif;
+    font-weight: 560;
+    font-size: 25px;
+    margin: 25px auto auto;
+    border-radius: 6px;
+    border-style: none;
+}

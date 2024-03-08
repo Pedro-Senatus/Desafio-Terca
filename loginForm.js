@@ -1,10 +1,9 @@
-// LoginForm.js
 import React from 'react';
-import styles from './globals.css'; // Importando os estilos do módulo
+import styles from './globals.css'; 
 const LoginForm = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Lógica de envio do formulário, como enviar dados para um servidor ou manipular localmente
+    
   };
 
   return (

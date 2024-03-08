@@ -1,4 +1,3 @@
-// pages/LoginPage.js
 'use client'
 import React from 'react';
 import LoginForm from './loginForm.js';
